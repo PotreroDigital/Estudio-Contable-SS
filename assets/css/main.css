@@ -3602,6 +3602,13 @@ body.is-loading #banner:after {
     }
 }
 
+#three h2{
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #three {
     padding: 6em 0 4em 0;
 }
