@@ -3093,7 +3093,7 @@ body {
 }
 
 #header .logo:hover {
-    color: rgba(229, 71, 75, 0.75);
+    color: rgb(240, 13, 79 ,0.75)
 }
 
 #header a {
@@ -3111,7 +3111,7 @@ body {
 }
 
 #header a:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgb(240, 13, 79 ,0.75);
 }
 
 #header a:last-child {
