@@ -3506,20 +3506,21 @@ body.is-loading #banner:after {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-#main .agip {
-    border-radius: 45%;
+
+#main .main1 img {
+    border-radius: 40%;
+display: block;
+position: relative;
+left: 100px;
 }
-#main .agip{
-    display: block;
-}
-#main .arba{
-    border-radius: 45%;
-    display: block;
-    text-align: left;
+#main2 img{
+    border-radius: 40%;
+display: block;
+position: relative;
+left: 500px;
+bottom: 660px;
 
 }
-
-
 
 
 
