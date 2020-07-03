@@ -3094,7 +3094,7 @@ body {
 }
 
 #header .logo:hover {
-    color: rgb(240, 13, 79 ,0.75)
+    color: rgb(240, 13, 79, 0.75)
 }
 
 #header a {
@@ -3112,7 +3112,7 @@ body {
 }
 
 #header a:hover {
-    color: rgb(240, 13, 79 ,0.75);
+    color: rgb(240, 13, 79, 0.75);
 }
 
 #header a:last-child {
@@ -3321,7 +3321,7 @@ body {
 }
 
 #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
-    color:white;
+    color: white;
     font-family: 'Courier New', Courier, monospace
 }
 
@@ -3498,8 +3498,29 @@ body.is-loading #banner:after {
 
 /* Main */
 #main {
+    padding: 4em 0 2em 0;
+}
+
+#main h1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#main .agip {
+    border-radius: 45%;
+}
+#main .agip{
+    display: block;
+}
+#main .arba{
+    border-radius: 45%;
+    display: block;
+    text-align: left;
 
 }
+
+
+
 
 
 #one {
@@ -3532,17 +3553,19 @@ body.is-loading #banner:after {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#two .content header h3{
-	color:black;
-	font-family: 'Courier New', Courier, monospace;
+#two .content header h3 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
-#two .inner p{
-	color: white;
-	text-align: justify;
-	text-indent: 15px;
-	font-weight: bold;
-	font-family: 'Courier New', Courier, monospace;
+
+#two .inner p {
+    color: white;
+    text-align: justify;
+    text-indent: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 #two .inner {
     display: -ms-flexbox;
     display: -moz-flex;
@@ -3604,8 +3627,8 @@ body.is-loading #banner:after {
     }
 }
 
-#three h2{
-    color:black;
+#three h2 {
+    color: black;
     text-align: center;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
@@ -3614,9 +3637,10 @@ body.is-loading #banner:after {
 #three {
     padding: 6em 0 4em 0;
 }
-#three .content header > h3{
-	color:black;
-	font-family: 'Courier New', Courier, monospace;
+
+#three .content header>h3 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #three .inner {
@@ -3643,14 +3667,14 @@ body.is-loading #banner:after {
 
 #three .inner article p {
     color: white;
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: bold;
-	text-align: justify;
-	text-indent: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 15px;
 }
 
 #three .inner article .icon {
-    color:black;
+    color: black;
     font-size: 3em;
 }
 
@@ -3682,14 +3706,13 @@ body.is-loading #banner:after {
 
 /* Footer */
 #footer {
-    background-image:  url(../../img/suj1.gif);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+    background-image: url(../../img/suj1.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #f2a3a5;
     padding: 4em 0 2em 0;
-
 }
 
 #footer input, #footer select, #footer textarea {
