@@ -3060,7 +3060,7 @@ body {
 
 #header .inner>nav a {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #header .inner {
@@ -3080,14 +3080,14 @@ body {
 #header .logo {
     display: inline-block;
     height: inherit;
-    left: 0;
+    left: 2px;
     line-height: inherit;
     margin: 0;
     padding: 0;
     position: absolute;
     top: 0;
     color: white;
-    font-size: 1.75em;
+    font-size: 1.5em;
     text-transform: none;
     font-weight: normal;
     padding: 0;
@@ -3509,42 +3509,44 @@ body.is-loading #banner:after {
 
 #main .main1 img {
     border-radius: 40%;
-display: block;
-position: relative;
-left: 100px;
+    display: block;
+    position: relative;
+    left: 100px;
 }
-#main2 img{
-    border-radius: 40%;
-display: block;
-position: relative;
-left: 500px;
-bottom: 445px;
 
-}
-#main3 img{
+#main2 img {
     border-radius: 40%;
-display: block;
-position: relative;
-left: 900px;
-bottom: 885px;
+    display: block;
+    position: relative;
+    left: 500px;
+    bottom: 445px;
 }
-#main1 img :hover{
+
+#main3 img {
+    border-radius: 40%;
+    display: block;
+    position: relative;
+    left: 900px;
+    bottom: 885px;
+}
+
+#main1 img :hover {
     transform: rotate(200deg);
     transition: all 1s;
 }
+
 #main3 {
     background-image: url("../../img/img2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+}
 
-}.face{
+.face {
     position: fixed;
     left: 890px;
 }
-
-
 
 #one {
     padding: 6em 0 4em 0;
@@ -3692,7 +3694,7 @@ bottom: 885px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    text-align: justify;
+    text-align: inherit;
     text-indent: 15px;
 }
 
