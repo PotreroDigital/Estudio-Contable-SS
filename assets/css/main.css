@@ -3031,6 +3031,10 @@ table.alt tbody tr td {
     }
 }
 
+
+
+
+
 /* Header */
 /*1*/
 body {
@@ -3496,7 +3500,39 @@ body.is-loading #banner:after {
     }
 }
 
-/* Main */
+/* Main pag.servicios*/
+#main ul li a{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+ .servicio>ul{
+    list-style: none;
+}
+
+#main li{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#main li  :hover{
+    color:yellow;
+
+}
+#main li ul{
+    display: none;
+}
+ #main li :hover > ul  {
+    display: block;
+}
+
+
+
+
+
+/*Main*/
 #main {
     padding: 4em 0 2em 0;
 }
@@ -3505,6 +3541,10 @@ body.is-loading #banner:after {
     color: black;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+}
+#main .inner h1{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #main .main1 img {
