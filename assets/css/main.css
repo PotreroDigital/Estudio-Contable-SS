@@ -1748,7 +1748,7 @@ strong, b {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #e5474b;
+    color: ;
 }
 
 blockquote {
@@ -3031,10 +3031,6 @@ table.alt tbody tr td {
     }
 }
 
-
-
-
-
 /* Header */
 /*1*/
 body {
@@ -3503,7 +3499,55 @@ body.is-loading #banner:after {
 /* Main pag.servicios*/
 
 
+.uno h1 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+.acordeon{
+    margin-left: 25px;
+}
 
+.uno .acordeon__contenido {
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+#uno input{
+
+}
+.acordeon input {
+    display: none;
+}
+
+.acordeon__titlulo {
+    display: block;
+    padding: 5px;
+    background-clip: border-box;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.acordeon__titlulo, :hover {
+    background-color: ;
+}
+
+.acordeon__contenido {
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.5s;
+
+}
+
+.acordeon input:checked~.acordeon__contenido {
+    height: auto;
+    margin: 15px 0;
+}
 
 /*Main*/
 #main {
@@ -3515,7 +3559,8 @@ body.is-loading #banner:after {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
-#main .inner h1{
+
+#main .inner h1 {
     text-align: left;
     font-family: 'Courier New', Courier, monospace;
 }
