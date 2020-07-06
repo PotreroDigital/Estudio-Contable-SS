@@ -3501,7 +3501,32 @@ body.is-loading #banner:after {
 }
 
 /* Main pag.servicios*/
+.uno{
+    box-sizing: border-box;
+}
+#mainser .inner1 h1{
+    padding: 2em 0 2em 0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.acordeon{
+    box-sizing: border-box;
+}
+.stein>.acordeon   input {
+    display: none;
+}
+.acordeon__titulo {
+    display: block;
+    padding: 10px;
+    background: aqua;
+    font-size: 20px;
+    cursor: pointer;
+}
 
+.stein>.acordeon__titulo , :hover {
+    background: greenyellow;
+}
 
 
 
