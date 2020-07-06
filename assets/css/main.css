@@ -3501,33 +3501,6 @@ body.is-loading #banner:after {
 }
 
 /* Main pag.servicios*/
-#main ul li a{
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-
-}
- .servicio>ul{
-    list-style: none;
-}
-
-#main li{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-}
-
-#main li  :hover{
-    color:yellow;
-
-}
-#main li ul{
-    display: none;
-}
- #main li :hover > ul  {
-    display: block;
-}
-
 
 
 
