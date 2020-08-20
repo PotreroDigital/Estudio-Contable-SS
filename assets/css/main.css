@@ -1559,8 +1559,9 @@ body {
     color: #111111;
 }
 
+/*fuente del footer*/
 body, input, select, textarea {
-    font-family: "Lato", sans-serif;
+    font-family: 'Courier New', Courier, monospaces;
     font-size: 15pt;
     font-weight: 300;
     line-height: 2;
@@ -1744,7 +1745,7 @@ a {
 }
 
 strong, b {
-    color: #e5474b;
+    color: blck;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2214,19 +2215,21 @@ input[type="radio"]+label {
     color: #111111;
 }
 
+/*checkbox de servicio*/
 input[type="checkbox"]+label:before,
 input[type="radio"]+label:before {
-    background: none;
-    border-color: #e5474b;
+    background: ;
+    border-color: ;
 }
 
 input[type="checkbox"]:checked+label:before,
 input[type="radio"]:checked+label:before {
-    background-color: #e5474b;
-    border-color: #e5474b;
-    color: #ffffff;
+    background-color: black;
+    border-color: ;
+    color: yellow;
 }
 
+/*end checkbox de servicio*/
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
     border-color: #e5474b;
@@ -3033,6 +3036,7 @@ table.alt tbody tr td {
 
 /* Header */
 /*1*/
+/*Baground de todas las pag*/
 body {
     position: relative;
     padding-top: 5em;
@@ -3077,6 +3081,7 @@ body {
     }
 }
 
+/*lcda solimar camargo*/
 #header .logo {
     display: inline-block;
     height: inherit;
@@ -3497,15 +3502,14 @@ body.is-loading #banner:after {
 }
 
 /* Main pag.servicios*/
-
-
 .uno h1 {
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     text-align: center;
 }
-.acordeon{
+
+.acordeon {
     margin-left: 25px;
 }
 
@@ -3515,9 +3519,9 @@ body.is-loading #banner:after {
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
 }
-#uno input{
 
-}
+#uno input {}
+
 .acordeon input {
     display: none;
 }
@@ -3529,7 +3533,6 @@ body.is-loading #banner:after {
     color: black;
     font-size: 20px;
     cursor: pointer;
-    
 }
 
 .acordeon__titlulo, :hover {
@@ -3541,7 +3544,6 @@ body.is-loading #banner:after {
     overflow: hidden;
     margin: 0;
     transition: all 0.5s;
-
 }
 
 .acordeon input:checked~.acordeon__contenido {
@@ -3589,9 +3591,18 @@ body.is-loading #banner:after {
 }
 
 #main1 img :hover {
-    transform: rotate(200deg);
-    transition: all 1s;
+    transform: rotate(100deg);
+    transition: all 10s;
 }
+#main2{
+
+    background-image: url("../../img/img5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 
 #main3 {
     background-image: url("../../img/img2.jpg");
@@ -3599,11 +3610,6 @@ body.is-loading #banner:after {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-}
-
-.face {
-    position: fixed;
-    left: 890px;
 }
 
 #one {
@@ -3986,6 +3992,12 @@ body.is-loading #banner:after {
 
 #footer .copyright a {
     color: #f2a3a5;
+}
+
+.redes {
+    position: relative;
+    padding-left: 45%;
+}
 }
 
 @media screen and (max-width: 980px) {
